@@ -50,21 +50,27 @@
     - Bulatkan hasil bagi hingga 2 desimal (round(..., 2)).
     - Jika penyebut = 0 (pembagian nol), kembalikan NaN (float('nan')).
 
-## Fungsi `printIterasi(x, i, true_val)`
+## Fungsi `printIterasi(x_prev, Iterasi)`
   ```
-  def printIteration(x_prev, iteration):
+  def printIterasi(x_prev, Iterasi):
     x_current = compute_fx(x_prev)
     
-    print(f"Iteration {iteration}:")
-    print(f"  x_{iteration-1} = {x_prev:.2f}")
-    print(f"  Calculation: ((-6)*({x_prev:.2f})² + 19*({x_prev:.2f}) + 84) / ({x_prev:.2f})²")
-    print(f"              = ({-6*x_prev**2:.2f} + {19*x_prev:.2f} + 84.00) / {x_prev**2:.2f}")
-    print(f"              = {(-6*x_prev**2 + 19*x_prev + 84):.2f} / {x_prev**2:.2f}")
-    print(f"  x_{iteration} = {x_current:.2f}")
+    print(f"Iterasi {Iterasi}:")
+    print(f"x{Iterasi-1} = {x_prev:.2f}")
     
-    if iteration > 1:
+    x_kuadrat = x_prev**2
+    
+    print(f"Iterasi {Iterasi}:")
+    print(f"x{Iterasi-1} = {x_prev:.2f}")
+    print(f"x{Iterasi} = ((-6)*({x_prev:.2f})² + 19 * ({x_prev:.2f}) + 84) / ({x_prev:.2f})²")
+    print(f"   = ((-6) * {x_kuadrat:.2f} + {19*x_prev:.2f} + 84.00) / {x_prev**2:.2f}")
+    print(f"   = ({-6*x_kuadrat:.2f} + {19*x_prev:.2f} + 84.00) / {x_prev**2:.2f}")
+    print(f"   = {(-6*x_prev**2 + 19*x_prev + 84):.2f} / {x_prev**2:.2f}")
+    print(f"x{Iterasi} = {x_current:.2f}")
+    
+    if Iterasi > 0:
         error = ErrorApprox(x_current, x_prev)
-        print(f"  Approximation Error: {error}%")
+        print(f"Ea: {error}%")
     print()
     
     return x_current
@@ -89,7 +95,7 @@
   - Hitung dan cetak Ea dari iterasi > 0.
   - Kembalikan x_current untuk iterasi berikutnya.
 
-## Fungsi `fixed_point_iteration(initial_x, iterations)`
+## Fungsi `fixed_point_iteration(initial_x, iterasii)`
   ```
   def fixed_point_iterasi(initial_x, itersii):
     print("Metode Itersi Satu Titik:")
