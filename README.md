@@ -111,8 +111,11 @@
         - Untuk setiap iterasi i dari 1 hingga iterasii:
         - Panggil printIterasi(x, i) untuk menghitung dan mencetak hasil.
         - Update nilai x dengan nilai baru dari printIteration.
-          
-## Python A12_ProgramKomnum_07.py 
+      
+## Memanggil Fungsi fixed_point_iterasi
   ```
   fixed_point_iterasi(3.0, 5)
   ```
+
+## Eksekusi Program
+Python A12_ProgramKomnum_07.py 
