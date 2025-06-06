@@ -79,11 +79,11 @@
     - Header Iterasi: Iteration {n}:.
     - Nilai Awal: x_{n-1} = nilai.
     - Proses:
-     - Hitung x_current menggunakan compute_fx(x_prev).
-     - Cetak informasi iterasi (Iterasi ke-n).
-     - Cetak nilai sebelumnya (x_prev).
-     - Hitung x^2 (x_kuadrat).
-     - Cetak langkah-langkah perhitungan fungsi secara eksplisit:
+      - Hitung x_current menggunakan compute_fx(x_prev).
+      - Cetak informasi iterasi (Iterasi ke-n).
+      - Cetak nilai sebelumnya (x_prev).
+      - Hitung x^2 (x_kuadrat).
+      - Cetak langkah-langkah perhitungan fungsi secara eksplisit:
       - Rumus fungsi.
       - Substitusi nilai x.
       - Perhitungan perkalian dan penjumlahan.
