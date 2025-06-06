@@ -53,11 +53,7 @@
 ## Fungsi `printIterasi(x_prev, Iterasi)`
   ```
   def printIterasi(x_prev, Iterasi):
-    x_current = compute_fx(x_prev)
-    
-    print(f"Iterasi {Iterasi}:")
-    print(f"x{Iterasi-1} = {x_prev:.2f}")
-    
+    x_current = compute_fx(x_prev)    
     x_kuadrat = x_prev**2
     
     print(f"Iterasi {Iterasi}:")
