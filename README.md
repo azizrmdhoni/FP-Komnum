@@ -118,4 +118,6 @@
   ```
 
 ## Eksekusi Program
-Python A12_ProgramKomnum_07.py 
+  ```
+  Python A12_ProgramKomnum_07.py 
+  ```
