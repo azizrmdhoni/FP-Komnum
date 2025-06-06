@@ -119,5 +119,5 @@
 
 ## Eksekusi Program
   ```
-  Python A12_ProgramKomnum_07.py 
+  python A12_ProgramKomnum_07.py 
   ```
