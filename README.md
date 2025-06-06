@@ -95,7 +95,7 @@
   - Hitung dan cetak Ea dari iterasi > 0.
   - Kembalikan x_current untuk iterasi berikutnya.
 
-## Fungsi `fixed_point_iteration(initial_x, iterasii)`
+## Fungsi `fixed_point_iterasi(initial_x, iterasii)`
   ```
   def fixed_point_iterasi(initial_x, itersii):
     print("Metode Itersi Satu Titik:")
