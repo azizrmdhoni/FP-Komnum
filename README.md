@@ -110,7 +110,7 @@
         - Panggil printIterasi(x, i) untuk menghitung dan mencetak hasil.
         - Update nilai x dengan nilai baru dari printIteration.
           
-## Eksekusi Program
+## Python A12_ProgramKomnum_07.py 
   ```
   fixed_point_iterasi(3.0, 5)
   ```
