@@ -1,4 +1,6 @@
-### Kelompok A12 (Metode Iterasi Satu Titik)
+### Metode Iterasi Satu Titik Soal No 7
+
+## Kelompok A12 
 
 |    NRP     |          Name         |
 | :--------: | :-------------------: |
