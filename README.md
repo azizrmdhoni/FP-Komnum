@@ -1,8 +1,8 @@
-- ##Import Library##
+##Import Library##
   `import math` 
   - import math: Mengimpor modul matematika standar Python
 
-- ##Fungsi `ErrorApprox(x_i, x_i_1)`##
+##Fungsi `ErrorApprox(x_i, x_i_1)`##
   ```
   def ErrorApprox(x_i, x_i_1):
     return round(abs((x_i - x_i_1) / x_i) * 100, 2)
@@ -17,7 +17,7 @@
     - round(..., 2) membulatkan hasil ke 2 desimal.
     - abs() menjamin nilai error selalu positif.
 
-- ##Fungsi `compute_fx(x)`##
+##Fungsi `compute_fx(x)`##
   ```
   def compute_fx(x):
     x_kuadrat = x**2                  
@@ -38,7 +38,7 @@
     - Bulatkan hasil bagi hingga 2 desimal (round(..., 2)).
     - Jika penyebut = 0 (pembagian nol), kembalikan NaN (float('nan')).
 
-- ##Fungsi `printIterasi(x, i, true_val)`##
+##Fungsi `printIterasi(x, i, true_val)`##
   ```
   def printIteration(x_prev, iteration):
     x_current = compute_fx(x_prev)
@@ -77,7 +77,7 @@
   - Hitung dan cetak Ea dari iterasi > 0.
   - Kembalikan x_current untuk iterasi berikutnya.
 
-- ##Fungsi `fixed_point_iteration(initial_x, iterations)`##
+##Fungsi `fixed_point_iteration(initial_x, iterations)`##
   ```
   def fixed_point_iterasi(initial_x, itersii):
     print("Metode Itersi Satu Titik:")
@@ -98,7 +98,7 @@
         - Panggil printIterasi(x, i) untuk menghitung dan mencetak hasil.
         - Update nilai x dengan nilai baru dari printIteration.
           
-- ##ksekusi Program##
+##ksekusi Program##
   ```
   fixed_point_iterasi(3.0, 5)
   ```
